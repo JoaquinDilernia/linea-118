@@ -15,7 +15,7 @@ const NavBar = (props) => {
 
     return (
         <>
-            <IconContext.Provider value={{ color: "#324b77" }}>
+            <IconContext.Provider value={{ color: "#fff" }}>
                 <nav className="navbar">
                     <div className="navbar-container container">
                         <Link
@@ -42,7 +42,7 @@ const NavBar = (props) => {
                             </li>
                             <li className="nav-item">
                                 <NavLink
-                                    to="/"
+                                    to="/recorridos"
                                     className={({ isActive }) =>
                                         "nav-links" + (isActive ? " activated" : "")
                                     }
@@ -53,7 +53,7 @@ const NavBar = (props) => {
                             </li>
                             <li className="nav-item">
                                 <NavLink
-                                    to="/"
+                                    to="/interes"
                                     className={({ isActive }) =>
                                         "nav-links" + (isActive ? " activated" : "")
                                     }
@@ -64,13 +64,36 @@ const NavBar = (props) => {
                             </li>
                             <li className="nav-item">
                                 <NavLink
-                                    to="/"
+                                    to="/preguntas-frecuentes"
                                     className={({ isActive }) =>
                                         "nav-links" + (isActive ? " activated" : "")
                                     }
                                     onClick={closeMobileMenu}
                                 >
                                     Preguntas frecuentes
+                                </NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink
+                                    to="/historia"
+                                    className={({ isActive }) =>
+                                        "nav-links" + (isActive ? " activated" : "")
+                                    }
+                                    onClick={closeMobileMenu}
+                                >
+                                    Historia
+                                </NavLink>
+                            </li>
+
+                            <li className="nav-item">
+                                <NavLink
+                                    to="/galeria"
+                                    className={({ isActive }) =>
+                                        "nav-links" + (isActive ? " activated" : "")
+                                    }
+                                    onClick={closeMobileMenu}
+                                >
+                                    Galeria
                                 </NavLink>
                             </li>
 

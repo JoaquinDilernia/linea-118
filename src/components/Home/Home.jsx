@@ -8,12 +8,14 @@ const Home = () => {
   return (
     <div className='home__contenedor'>
         <div className='home__contenedor__card' >
-            <Link to='/'> <div className='box'> <img src={foto} alt='foto' className='home__contenedor__card__img' /> </div>  </Link>
-            <Link to='/'> <div className='box'> <img src={foto} alt='foto' className='home__contenedor__card__img' /> </div>  </Link>
-            <Link to='/'> <div className='box'> <img src={foto} alt='foto' className='home__contenedor__card__img' /> </div>  </Link>
-            <Link to='/'> <div className='box'> <img src={foto} alt='foto' className='home__contenedor__card__img' /> </div>  </Link>
-            <Link to='/'> <div className='box'> <img src={foto} alt='foto' className='home__contenedor__card__img' /> </div>  </Link>
-            <Link to='/'> <div className='box'> <img src={foto} alt='foto' className='home__contenedor__card__img' /> </div>  </Link>
+          <div className='box'> <Link className='box' to='/'>  <img src={foto} alt='foto' className='home__contenedor__card__img' />   </Link></div> 
+          <div className='box'> <Link className='box' to='/'>  <img src={foto} alt='foto' className='home__contenedor__card__img' />   </Link></div> 
+          <div className='box'> <Link className='box' to='/'>  <img src={foto} alt='foto' className='home__contenedor__card__img' />   </Link></div> 
+          <div className='box'> <Link className='box' to='/'>  <img src={foto} alt='foto' className='home__contenedor__card__img' />   </Link></div> 
+          <div className='box'> <Link className='box' to='/'>  <img src={foto} alt='foto' className='home__contenedor__card__img' />   </Link></div> 
+          <div className='box'> <Link className='box' to='/'>  <img src={foto} alt='foto' className='home__contenedor__card__img' />   </Link></div> 
+
+
 
 
 
