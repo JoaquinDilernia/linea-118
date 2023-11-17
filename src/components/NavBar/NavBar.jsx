@@ -5,6 +5,8 @@ import { IconContext } from "react-icons/lib";
 import logo from "../../assets/logo.png";
 import "./NavBar.css";
 
+
+
 const NavBar = (props) => {
     const [click, setClick] = useState(false);
 
@@ -15,7 +17,7 @@ const NavBar = (props) => {
 
     return (
         <>
-            <IconContext.Provider value={{ color: "#fff" }}>
+            <IconContext.Provider value={{ color: "#202a3c" }}>
                 <nav className="navbar">
                     <div className="navbar-container container">
                         <Link

@@ -1,12 +1,11 @@
 .navbar {
-  background-color: var(--principal-color);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: var(--tertiary-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   position: sticky;
   top: 0;
   z-index: 999;
   height: auto;
   width: 100%;
-  margin-bottom: 1rem;
 }
 
 .navbar-container {
@@ -74,7 +73,7 @@
 
 .nav-links {
   display: block;
-  color: var(--tertiary-color);
+  color: var(--principal-color);
   font-size: 1rem;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -83,11 +82,11 @@
 }
 
 .activated {
-  border-bottom: 2px solid var(--tertiary-color);
+  border-bottom: 2px solid var(--principal-color);
 }
 
 .fa-bars {
-  color: var(--tertiary-color);
+  color: var(--principal-color);
 }
 
 .menu-icon {
@@ -120,7 +119,7 @@
   }
 
   .nav-menu.active {
-    background: var(--principal-color);
+    background: var(--tertiary-color);
     left: 0;
     opacity: 1;
     transition: all 0.6s ease;
