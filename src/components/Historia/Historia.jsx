@@ -14,17 +14,17 @@ const Historia = () => {
         </div>
         <div className='contenedor__historia'>
         <motion.div className='historia__contenedor__imagen' 
-        initial={{opacity:0}}
-        animate={{opacity:1}}
-        transition={{duration:1.2}}
-        
+        initial={{opacity:0, x:'-100vw'}}
+        animate={{opacity:1, x:0}}
+        transition={{duration:1}}
+
         >
           <img src={recorridos} alt='recorridos' />
           </motion.div> 
         <motion.div className='historia__contenedor__texto'
-        initial={{opacity:0}}
-        animate={{opacity:1}}
-        transition={{duration:1.2}} >
+        initial={{opacity:0, x:'100vw'}}
+        animate={{opacity:1, x:0}}
+        transition={{duration:1}} >
           <p>
           La empresa Microomnibus Barrancas de Belgrano S.A. fue fundada en el año 1930 por el Sr. Antonio B. Pascual, quien comenzó a prestar servicios de transporte de pasajeros en la Ciudad de Buenos Aires con una flota de 10 colectivos. 
           </p>

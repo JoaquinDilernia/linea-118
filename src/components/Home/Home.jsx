@@ -20,8 +20,8 @@ const Home = () => {
         <h2>LINEA 118</h2>
       </div>
       <motion.div className='home__contenedor__card'  
-        initial={{opacity:0}}
-        animate={{opacity:1}}
+        initial={{ y:'-100vw'}}
+        animate={{y:0}}
         transition={{duration:1.2}} >
           <div className='box'> <Link className='box' to='/turismo'>  <div className='box__contenedor'> <div className='icon'><SiGooglemaps /> </div> <div className='box__text'><p >PUNTOS DE TURISTICOS</p></div></div></Link> </div> 
           <div className='box'> <Link className='box' to='/interes'> <div className='box__contenedor'> <div className='icon'><BsHospital /> </div> <div className='box__text'><p >PUNTOS DE INTERES</p></div></div> </Link></div> 
