@@ -66,6 +66,17 @@ const NavBar = (props) => {
                             </li>
                             <li className="nav-item">
                                 <NavLink
+                                    to="/turismo"
+                                    className={({ isActive }) =>
+                                        "nav-links" + (isActive ? " activated" : "")
+                                    }
+                                    onClick={closeMobileMenu}
+                                >
+                                    Puntos Turisticos
+                                </NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink
                                     to="/preguntas-frecuentes"
                                     className={({ isActive }) =>
                                         "nav-links" + (isActive ? " activated" : "")

@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
+import { ChakraProvider } from '@chakra-ui/react'
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import Home from './components/Home/Home'
@@ -16,6 +17,8 @@ function App() {
 
   return (
     <>
+<ChakraProvider>
+
 <NavBar/>
 
 <Routes>
@@ -29,6 +32,8 @@ function App() {
 
 
 </Routes>
+</ChakraProvider>
+
 
     </>
   )

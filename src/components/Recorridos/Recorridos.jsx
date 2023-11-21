@@ -30,9 +30,9 @@ const Recorridos = () => {
     <div className="hero">
 
       <Swiper
-        slidesPerView={1}
+        slidesPerView={2}
         centeredSlides={false}
-        slidesPerGroupSkip={1}
+        slidesPerGroupSkip={2}
         grabCursor={true}
         keyboard={{
           enabled: true,
@@ -53,8 +53,12 @@ const Recorridos = () => {
       >
       <SwiperSlide className='SwiperSlide' > <img src={foto} alt="" /> </SwiperSlide>
       <SwiperSlide className='SwiperSlide' > <p>recorrido b </p> </SwiperSlide>  
+
       <SwiperSlide className='SwiperSlide' ><img src={foto} alt="" /></SwiperSlide>
-      <SwiperSlide className='SwiperSlide' >  <img src={foto} alt="" /> </SwiperSlide>
+      <SwiperSlide className='SwiperSlide' >  <p>recorrido c </p> </SwiperSlide>
+
+      <SwiperSlide className='SwiperSlide' ><img src={foto} alt="" /></SwiperSlide>
+      <SwiperSlide className='SwiperSlide' >  <p>recorrido d </p> </SwiperSlide>
     </Swiper>
   </div>
 
