@@ -1,17 +1,103 @@
-.hero{
-    width: 100%;
-    height: calc(100vh - 90px);
+.Recorridos {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    height: auto;
+    margin-bottom: 2rem;
 
 }
 
-.mySwiper {
+.Recorridos h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.Recorridos__contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    padding: 2rem;
+
     width: 80%;
-    height: 80%;
-    margin-bottom: 1rem;
+}
 
+.Recorridos__contenedor__map {
+    width: 40%;
+    height: 400px;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+
+.Recorridos__contenedor__map iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.Recorridos__contenedor__info {
+    width: 40%;
+    height: 400px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 1;
+    -moz-border-radius: 1;
+    -ms-border-radius: 1;
+    -o-border-radius: 1;
+}
+
+.Recorridos__contenedor__info h5{
+    font-size: 1rem;
+    margin: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Recorridos__contenedor__info p {
+    font-size: 0.9rem;
+    margin: 1rem;
+    text-align: justify;
 }
 
 
+
+@media screen and (max-width: 900px) {
+    .Recorridos__contenedor {
+        flex-direction: column;
+        border-bottom: 1px solid var(--principal-color);
+        width: 90%;
+    }
+
+    .Recorridos__contenedor__map {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 2rem;
+    }
+
+    .Recorridos__contenedor__info {
+        width: 100%;
+        height: 300px;
+    }
+
+    .Recorridos__contenedor__info h5{
+        font-size: 0.8rem;
+    }
+
+    .Recorridos__contenedor__info p {
+        font-size: 0.6rem;
+    }
+
+    .Recorridos h1 {
+        font-size: 2rem;
+    }
+    
+}
