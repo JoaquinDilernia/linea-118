@@ -52,6 +52,20 @@
     color: var(--principal-color);
 }
 
+.preguntas_frecuentes_contenedor__preguntas details a{
+    text-decoration:none;
+    color: blue;
+}
+
+.preguntas_frecuentes_contenedor__preguntas details a:hover{
+    text-decoration: underline;
+
+}
+
+ 
+
+
+
 .preguntas_frecuentes_contenedor__preguntas details summary::after{
     content: "+";
     font-size: 1.5rem;
@@ -85,8 +99,12 @@
 
 
 @media screen and (max-width: 798px) {
+    .preguntas_frecuentes_contenedor{
+        height: auto;
+    }
     .preguntas_frecuentes_contenedor__preguntas{
         width: 90%;
+        
     }
     .preguntas_frecuentes_contenedor__preguntas details summary{
         font-size: 1rem;

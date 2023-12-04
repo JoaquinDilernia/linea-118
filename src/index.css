@@ -1,11 +1,9 @@
-
 :root{
   --principal-color: #202a3c ;
   --secondary-color: #921c15;
   --tertiary-color: #ffffff;
   --quaternary-color: #0000;
 }
-
 
 *{
   margin: 0;

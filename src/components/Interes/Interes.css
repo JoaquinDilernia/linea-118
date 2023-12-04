@@ -34,7 +34,7 @@
     height: 80% !important;
 }
 .img-card{
-    height: 18rem !important;
+    height: 16rem !important;
     object-fit: cover;
     border-radius: 1rem ;
     filter: grayscale(20%);
