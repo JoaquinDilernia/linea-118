@@ -100,9 +100,10 @@
 
 @media screen and (max-width: 798px) {
     .preguntas_frecuentes_contenedor{
-        height: auto;
+        height: 100vh;
     }
     .preguntas_frecuentes_contenedor__preguntas{
+
         width: 90%;
         
     }

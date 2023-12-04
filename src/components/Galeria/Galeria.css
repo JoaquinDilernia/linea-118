@@ -7,9 +7,10 @@
     
 }
 .galeria h3{
-    font-size: 3rem;
-    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: var(--principal-color);
     text-align: center;
+    margin: 2rem;
 }   
 .galeria__contenedor {
     columns: 2;
