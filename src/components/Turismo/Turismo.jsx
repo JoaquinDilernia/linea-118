@@ -21,7 +21,12 @@ import useModal from "../hooks/useModal";
 import './Turismo.css'
 
 
-import huracan from "../../assets/huracan.jpg";
+import barriochino from "../../assets/turisticos/barriochino.avif";
+import botanico from "../../assets/turisticos/botanico.jpg";
+import ecoparque from "../../assets/turisticos/ecoparque.jpg";
+import lasheras from "../../assets/turisticos/lasheras.jpg";
+import rural from "../../assets/turisticos/rural.jpg";
+import solar from "../../assets/turisticos/solar.jpg";
 
 
 const Turismo = () => {
@@ -52,10 +57,10 @@ const Turismo = () => {
     >
       <Card className="card">
         <CardBody className="CardBody">
-          <Heading className="card-titulo">Estadio Huracan</Heading>
+          <Heading className="card-titulo">Barrio Chino</Heading>
           <Divider />
           <Stack mt="1" spacing="3">
-            <Image className="img-card" src={huracan} width={300} />
+            <Image className="img-card" src={barriochino} width={300} />
           </Stack>
         </CardBody>
         <CardFooter className="card-footer">
@@ -64,16 +69,14 @@ const Turismo = () => {
           </Button>
 
           <Modal isOpen={isOpenModal} closeModal={closeModal}>
-            <h1 className="titulo-modal">Estadio Huracan</h1>
-            <img className="img-modal" src={huracan} alt="" />
+            <h1 className="titulo-modal">Barrio Chino</h1>
+            <img className="img-modal" src={barriochino} alt="" />
 
             <p className="parrafo-modal">
-              El Estadio Tomás Adolfo Ducó es un estadio de fútbol ubicado en
-              el barrio porteño de Parque Patricios, en la ciudad de Buenos
-              Aires, Argentina. Es propiedad del Club Atlético Huracán y fue
-              inaugurado el 7 de octubre de 1949. Su capacidad es de 48 314
-              espectadores, siendo el sexto estadio de fútbol más grande de la
-              Argentina.
+              El Barrio Chino de Buenos Aires es un barrio ubicado en el barrio
+              de Belgrano, en la ciudad de Buenos Aires, Argentina. Se
+              encuentra delimitado por las calles Juramento, Arribeños,
+              Montañeses y Olazábal.​
             </p>
           </Modal>
         </CardFooter>
@@ -81,10 +84,10 @@ const Turismo = () => {
 
       <Card className="card">
         <CardBody className="CardBody">
-          <Heading className="card-titulo">Estadio Huracan</Heading>
+          <Heading className="card-titulo">Jardin Botanico</Heading>
           <Divider />
           <Stack mt="1" spacing="3">
-            <Image className="img-card" src={huracan} width={300} />
+            <Image className="img-card" src={botanico} width={300} />
           </Stack>
         </CardBody>
         <CardFooter className="card-footer">
@@ -93,16 +96,14 @@ const Turismo = () => {
           </Button>
 
           <Modal isOpen={isOpenModal1} closeModal={closeModal1}>
-            <h1 className="titulo-modal">Estadio Huracan</h1>
-            <img className="img-modal" src={huracan} alt="" />
+            <h1 className="titulo-modal">Jardin Botanico</h1>
+            <img className="img-modal" src={botanico} alt="" />
 
             <p className="parrafo-modal">
-              El Estadio Tomás Adolfo Ducó es un estadio de fútbol ubicado en
-              el barrio porteño de Parque Patricios, en la ciudad de Buenos
-              Aires, Argentina. Es propiedad del Club Atlético Huracán y fue
-              inaugurado el 7 de octubre de 1949. Su capacidad es de 48 314
-              espectadores, siendo el sexto estadio de fútbol más grande de la
-              Argentina.
+              El Jardín Botánico Carlos Thays es un jardín botánico de la ciudad
+              de Buenos Aires, Argentina. Se encuentra ubicado en el barrio de
+              Palermo, frente al Zoológico de Buenos Aires, en la avenida Santa
+              Fe y avenida Las Heras.​
             </p>
           </Modal>
         </CardFooter>
@@ -111,10 +112,10 @@ const Turismo = () => {
 
       <Card className="card">
         <CardBody className="CardBody">
-          <Heading className="card-titulo">Estadio Huracan</Heading>
+          <Heading className="card-titulo">Ecoparque</Heading>
           <Divider />
           <Stack mt="1" spacing="3">
-            <Image className="img-card" src={huracan} width={300} />
+            <Image className="img-card" src={ecoparque} width={300} />
           </Stack>
         </CardBody>
         <CardFooter className="card-footer">
@@ -123,16 +124,14 @@ const Turismo = () => {
           </Button>
 
           <Modal isOpen={isOpenModal2} closeModal={closeModal2}>
-            <h1 className="titulo-modal">Estadio Huracan</h1>
-            <img className="img-modal" src={huracan} alt="" />
+            <h1 className="titulo-modal">Ecoparque</h1>
+            <img className="img-modal" src={ecoparque} alt="" />
 
             <p className="parrafo-modal">
-              El Estadio Tomás Adolfo Ducó es un estadio de fútbol ubicado en
-              el barrio porteño de Parque Patricios, en la ciudad de Buenos
-              Aires, Argentina. Es propiedad del Club Atlético Huracán y fue
-              inaugurado el 7 de octubre de 1949. Su capacidad es de 48 314
-              espectadores, siendo el sexto estadio de fútbol más grande de la
-              Argentina.
+              El Ecoparque Interactivo de Buenos Aires, anteriormente llamado
+              Jardín Zoológico de la Ciudad de Buenos Aires, es un parque
+              zoológico y botánico de 17 hectáreas ubicado en el barrio de
+              Palermo de la ciudad de Buenos Aires, Argentina.​
             </p>
           </Modal>
         </CardFooter>
@@ -141,10 +140,10 @@ const Turismo = () => {
 
       <Card className="card">
         <CardBody className="CardBody">
-          <Heading className="card-titulo">Estadio Huracan</Heading>
+          <Heading className="card-titulo">Paruqe las Heras</Heading>
           <Divider />
           <Stack mt="1" spacing="3">
-            <Image className="img-card" src={huracan} width={300} />
+            <Image className="img-card" src={lasheras} width={300} />
           </Stack>
         </CardBody>
         <CardFooter className="card-footer">
@@ -153,16 +152,12 @@ const Turismo = () => {
           </Button>
 
           <Modal isOpen={isOpenModal3} closeModal={closeModal3}>
-            <h1 className="titulo-modal">Estadio Huracan</h1>
-            <img className="img-modal" src={huracan} alt="" />
+            <h1 className="titulo-modal">Paruqe las Heras</h1>
+            <img className="img-modal" src={lasheras} alt="" />
 
             <p className="parrafo-modal">
-              El Estadio Tomás Adolfo Ducó es un estadio de fútbol ubicado en
-              el barrio porteño de Parque Patricios, en la ciudad de Buenos
-              Aires, Argentina. Es propiedad del Club Atlético Huracán y fue
-              inaugurado el 7 de octubre de 1949. Su capacidad es de 48 314
-              espectadores, siendo el sexto estadio de fútbol más grande de la
-              Argentina.
+              El Parque General Las Heras es un parque público ubicado en el
+              barrio de Palermo de la ciudad de Buenos Aires, Argentina.​
             </p>
           </Modal>
         </CardFooter>
@@ -171,10 +166,10 @@ const Turismo = () => {
 
       <Card className="card">
         <CardBody className="CardBody">
-          <Heading className="card-titulo">Estadio Huracan</Heading>
+          <Heading className="card-titulo">La Rural</Heading>
           <Divider />
           <Stack mt="1" spacing="3">
-            <Image className="img-card" src={huracan} width={300} />
+            <Image className="img-card" src={rural} width={300} />
           </Stack>
         </CardBody>
         <CardFooter className="card-footer">
@@ -183,16 +178,13 @@ const Turismo = () => {
           </Button>
 
           <Modal isOpen={isOpenModal3} closeModal={closeModal3}>
-            <h1 className="titulo-modal">Estadio Huracan</h1>
-            <img className="img-modal" src={huracan} alt="" />
+            <h1 className="titulo-modal">La Rural</h1>
+            <img className="img-modal" src={rural} alt="" />
 
             <p className="parrafo-modal">
-              El Estadio Tomás Adolfo Ducó es un estadio de fútbol ubicado en
-              el barrio porteño de Parque Patricios, en la ciudad de Buenos
-              Aires, Argentina. Es propiedad del Club Atlético Huracán y fue
-              inaugurado el 7 de octubre de 1949. Su capacidad es de 48 314
-              espectadores, siendo el sexto estadio de fútbol más grande de la
-              Argentina.
+              La Sociedad Rural Argentina es una asociación civil sin fines de
+              lucro, fundada el 10 de julio de 1866 en la ciudad de Buenos
+              Aires, Argentina.​
             </p>
           </Modal>
         </CardFooter>
@@ -201,10 +193,10 @@ const Turismo = () => {
 
       <Card className="card">
         <CardBody className="CardBody">
-          <Heading className="card-titulo">Estadio Huracan</Heading>
+          <Heading className="card-titulo">Shopping El Solar de la Abadia</Heading>
           <Divider />
           <Stack mt="1" spacing="3">
-            <Image className="img-card" src={huracan} width={300} />
+            <Image className="img-card" src={solar} width={300} />
           </Stack>
         </CardBody>
         <CardFooter className="card-footer">
@@ -213,16 +205,12 @@ const Turismo = () => {
           </Button>
 
           <Modal isOpen={isOpenModal4} closeModal={closeModal4}>
-            <h1 className="titulo-modal">Estadio Huracan</h1>
-            <img className="img-modal" src={huracan} alt="" />
+            <h1 className="titulo-modal">Shopping El Solar de la Abadia</h1>
+            <img className="img-modal" src={solar} alt="" />
 
             <p className="parrafo-modal">
-              El Estadio Tomás Adolfo Ducó es un estadio de fútbol ubicado en
-              el barrio porteño de Parque Patricios, en la ciudad de Buenos
-              Aires, Argentina. Es propiedad del Club Atlético Huracán y fue
-              inaugurado el 7 de octubre de 1949. Su capacidad es de 48 314
-              espectadores, siendo el sexto estadio de fútbol más grande de la
-              Argentina.
+              El Solar de la Abadía es un centro comercial ubicado en el barrio
+              de Palermo, en la Ciudad de Buenos Aires, Argentina.​
             </p>
           </Modal>
         </CardFooter>
