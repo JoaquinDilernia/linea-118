@@ -5,7 +5,7 @@ import { SiGooglemaps } from "react-icons/si";
 import { BsHospital } from "react-icons/bs";
 import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaRegImage } from "react-icons/fa";
-import { FcAbout } from "react-icons/fc";
+import { MdBusAlert } from "react-icons/md";
 import { BsQuestionLg } from "react-icons/bs";
 
 import {motion} from 'framer-motion'
@@ -28,7 +28,7 @@ const Home = () => {
           <div className='box'> <Link className='box' to='/recorridos'>   <div className='box__contenedor'> <div className='icon'><FaMapMarkedAlt /> </div> <div className='box__text'><p >RECORRIDOS</p></div></div></Link></div> 
           <div className='box'> <Link className='box' to='/preguntas-frecuentes'><div className='box__contenedor'> <div className='icon'><BsQuestionLg /> </div> <div className='box__text'><p >PREGUNTAS FRECUENTES</p></div></div></Link></div> 
           <div className='box'> <Link className='box' to='/galeria'> <div className='box__contenedor'> <div className='icon'><FaRegImage /> </div> <div className='box__text'><p >GALERIA</p></div></div> </Link></div> 
-          <div className='box'> <Link className='box' to='/historia'> <div className='box__contenedor'> <div className='icon'><FcAbout /> </div> <div className='box__text'><p >HISTORIA</p></div></div> </Link></div> 
+          <div className='box'> <a className='box' href='https://www.argentina.gob.ar/sube/cuandosubo' target='blank' > <div className='box__contenedor'> <div className='icon'><MdBusAlert /> </div> <div className='box__text'><p>¿CUANDO SUBO?</p></div></div> </a></div> 
 
         </motion.div>
       

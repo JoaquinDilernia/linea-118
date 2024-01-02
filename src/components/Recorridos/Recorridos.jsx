@@ -88,7 +88,7 @@ const Recorridos = () => {
           <h5>IDA A al PREDIO DE REGULACIÓN BARRANCAS DE BELGRANO: </h5>
 
           <p>
-            Desde ESTACION ONCE, AVENIDA PUEYRREDÓN, AVENIDA GENERAL LAS
+            Desde ESTACIÓN ONCE, AVENIDA PUEYRREDÓN, AVENIDA GENERAL LAS
             HERAS, PLAZA ITALIA, CENTRO DE TRANSBORDO PACÍFICO, AVENIDA SANTA
             FE, AVENIDA LUIS MARÍA CAMPOS, VIRREY DEL PINO, AVENIDA VIRREY
             VERTIZ, BARRANCAS DE BELGRANO.
@@ -113,7 +113,7 @@ const Recorridos = () => {
           animate={{ x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h5>REGRESO A ESTCACION ONCE</h5>
+          <h5>REGRESO A ESTACIÓN ONCE</h5>
           <p>
             Desde BARRANCAS DE BELGRANO por AVENIDA VIRREY VÉRTIZ, ingreso a
             carriles exclusivos CENTRO DE TRANSBORDO BARRANCAS DE BELGRANO, giro
@@ -121,7 +121,7 @@ const Recorridos = () => {
             AVENIDA LUIS MARIA CAMPOS, ARTURO ANTONIO DRESCO, AVENIDA SANTA FE,
             CENTRO DE TRANSBORDO PACÍFICO, salida de carriles exclusivos CENTRO,
             AVENIDA SANTA FE, PLAZA ITALIA, AVENIDA GENERAL LAS HERAS, AVENIDA
-            PUEYRREDÓN hasta ESTACION ONCE.
+            PUEYRREDÓN hasta ESTACIÓN ONCE.
           </p>
         </motion.div>
       </div>
