@@ -27,7 +27,7 @@ const Home = () => {
           <div className='box'> <Link className='box' to='/interes'> <div className='box__contenedor'> <div className='icon'><BsHospital /> </div> <div className='box__text'><p >PUNTOS DE INTERES</p></div></div> </Link></div> 
           <div className='box'> <Link className='box' to='/recorridos'>   <div className='box__contenedor'> <div className='icon'><FaMapMarkedAlt /> </div> <div className='box__text'><p >RECORRIDOS</p></div></div></Link></div> 
           <div className='box'> <Link className='box' to='/preguntas-frecuentes'><div className='box__contenedor'> <div className='icon'><BsQuestionLg /> </div> <div className='box__text'><p >PREGUNTAS FRECUENTES</p></div></div></Link></div> 
-          <div className='box'> <Link className='box' to='/galeria'> <div className='box__contenedor'> <div className='icon'><FaRegImage /> </div> <div className='box__text'><p >GALERIA</p></div></div> </Link></div> 
+          <div className='box'> <Link className='box' to='/galeria'> <div className='box__contenedor'> <div className='icon'><FaRegImage /> </div> <div className='box__text'><p >GALERIA / HISTORIA</p></div></div> </Link></div> 
           <div className='box'> <a className='box' href='https://www.argentina.gob.ar/sube/cuandosubo' target='blank' > <div className='box__contenedor'> <div className='icon'><MdBusAlert /> </div> <div className='box__text'><p>¿CUANDO SUBO?</p></div></div> </a></div> 
 
         </motion.div>

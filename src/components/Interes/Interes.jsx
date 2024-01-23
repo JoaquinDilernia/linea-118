@@ -205,11 +205,11 @@ const Interes = () => {
             </Stack>
           </CardBody>
           <CardFooter className="card-footer">
-            <Button className="btn-ver" onClick={openModal3}>
+            <Button className="btn-ver" onClick={openModal4}>
               VER MAS
             </Button>
 
-            <Modal isOpen={isOpenModal3} closeModal={closeModal3}>
+            <Modal isOpen={isOpenModal4} closeModal={closeModal4}>
               <h1 className="titulo-modal">Embajada de Alemania</h1>
               <img className="img-modal" src={alemania} alt="" />
               <p className="parrafo-modal">
@@ -235,11 +235,11 @@ const Interes = () => {
             </Stack>
           </CardBody>
           <CardFooter className="card-footer">
-            <Button className="btn-ver" onClick={openModal4}>
+            <Button className="btn-ver" onClick={openModal5}>
               VER MAS
             </Button>
 
-            <Modal isOpen={isOpenModal4} closeModal={closeModal4}>
+            <Modal isOpen={isOpenModal5} closeModal={closeModal5}>
               <h1 className="titulo-modal">Hospital Militar</h1>
               <img className="img-modal" src={militar} alt="" />
               <p className="parrafo-modal">
@@ -264,11 +264,11 @@ const Interes = () => {
             </Stack>
           </CardBody>
           <CardFooter className="card-footer">
-            <Button className="btn-ver" onClick={openModal4}>
+            <Button className="btn-ver" onClick={openModal6}>
               VER MAS
             </Button>
 
-            <Modal isOpen={isOpenModal4} closeModal={closeModal4}>
+            <Modal isOpen={isOpenModal6} closeModal={closeModal6}>
               <h1 className="titulo-modal">Hipodromo Argentino</h1>
               <img className="img-modal" src={hipodromo} alt="" />
               <p className="parrafo-modal">
@@ -294,11 +294,11 @@ const Interes = () => {
             </Stack>
           </CardBody>
           <CardFooter className="card-footer">
-            <Button className="btn-ver" onClick={openModal4}>
+            <Button className="btn-ver" onClick={openModal7}>
               VER MAS
             </Button>
 
-            <Modal isOpen={isOpenModal4} closeModal={closeModal4}>
+            <Modal isOpen={isOpenModal7} closeModal={closeModal7}>
               <h1 className="titulo-modal">Estacion de Tren Pacifico</h1>
               <img className="img-modal" src={pacifico} alt="" />
               <p className="parrafo-modal">
@@ -323,11 +323,11 @@ const Interes = () => {
             </Stack>
           </CardBody>
           <CardFooter className="card-footer">
-            <Button className="btn-ver" onClick={openModal4}>
+            <Button className="btn-ver" onClick={openModal8}>
               VER MAS
             </Button>
 
-            <Modal isOpen={isOpenModal4} closeModal={closeModal4}>
+            <Modal isOpen={isOpenModal8} closeModal={closeModal8}>
               <h1 className="titulo-modal">Embajada EEUU</h1>
               <img className="img-modal" src={eeuu} alt="" />
               <p className="parrafo-modal">
@@ -353,11 +353,11 @@ const Interes = () => {
             </Stack>
           </CardBody>
           <CardFooter className="card-footer">
-            <Button className="btn-ver" onClick={openModal4}>
+            <Button className="btn-ver" onClick={openModal9}>
               VER MAS
             </Button>
 
-            <Modal isOpen={isOpenModal4} closeModal={closeModal4}>
+            <Modal isOpen={isOpenModal9} closeModal={closeModal9}>
               <h1 className="titulo-modal">Clinica los Arcos</h1>
               <img className="img-modal" src={arcos} alt="" />
               <p className="parrafo-modal">
@@ -383,11 +383,11 @@ const Interes = () => {
             </Stack>
           </CardBody>
           <CardFooter className="card-footer">
-            <Button className="btn-ver" onClick={openModal4}>
+            <Button className="btn-ver" onClick={openModal10}>
               VER MAS
             </Button>
 
-            <Modal isOpen={isOpenModal4} closeModal={closeModal4}>
+            <Modal isOpen={isOpenModal10} closeModal={closeModal10}>
               <h1 className="titulo-modal">Museo Evita</h1>
               <img className="img-modal" src={evita} alt="" />
               <p className="parrafo-modal">

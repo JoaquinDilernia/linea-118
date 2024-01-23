@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 90px);
+    height: auto;
 }
 
 .historia__contenedor__titulo{
@@ -78,6 +78,11 @@
     .historia__contenedor__texto{
         width: 100%;
     }
+    .historia__contenedor__texto p{
+
+        text-align: left;
+    }
+    
 
     .historia__contenedor__imagen{
         width: 100%;

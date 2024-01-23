@@ -86,17 +86,7 @@ const NavBar = (props) => {
                                     Preguntas frecuentes
                                 </NavLink>
                             </li>
-                            <li className="nav-item">
-                                <NavLink
-                                    to="/historia"
-                                    className={({ isActive }) =>
-                                        "nav-links" + (isActive ? " activated" : "")
-                                    }
-                                    onClick={closeMobileMenu}
-                                >
-                                    Historia
-                                </NavLink>
-                            </li>
+
 
                             <li className="nav-item">
                                 <NavLink
@@ -106,7 +96,7 @@ const NavBar = (props) => {
                                     }
                                     onClick={closeMobileMenu}
                                 >
-                                    Galeria
+                                    Galeria / Historia
                                 </NavLink>
                             </li>
 
